@@ -26,24 +26,43 @@ end
 
 def remove_element_from_end_of_array(array)
   
+  my_array = ["Apple", "Banana", "Cherry", "Dates"]
+  deleted = my_array.pop
+  
 end
+
 
 def remove_element_from_start_of_array(array)
   
+  my_array = ["Apple", "Banana", "Cherry", "Dates"]
+  deleted_front = my_array.shift
+  
 end
+
 
 def retrieve_element_from_index(array, index_number)
   
+  my_array = ["Apple", "Banana", "Cherry", "Dates"]
+  
 end
+
 
 def retrieve_first_element_from_array(array)
   
-end
-
-def retrieve_last_element_from_array(array)
+  my_array = ["Apple", "Banana", "Cherry", "Dates"]
   
 end
 
+
+def retrieve_last_element_from_array(array)
+  
+  my_array = ["Apple", "Banana", "Cherry", "Dates"]
+  
+end
+
+
 def update_element_from_index(array, index_number, element)
+  
+  my_array = ["Apple", "Banana", "Cherry", "Dates"]
 
 end
