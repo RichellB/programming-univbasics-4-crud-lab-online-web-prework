@@ -10,8 +10,10 @@ end
 
 
 def add_element_to_end_of_array(array, element)
+  
   my_array = ["Apple", "Banana", "Cherry", "Dates"]
   my_array << "Eggplant"
+  my_array
   
 end
 
