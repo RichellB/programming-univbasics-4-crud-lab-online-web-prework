@@ -63,8 +63,7 @@ end
 
 def retrieve_last_element_from_array(array)
   
-  my_array = ["Apple", "Banana", "Cherry", "Dates"]
-  num_loc = my_array[-1]
+  num_loc = array[-1]
   num_loc
   
 end
@@ -72,8 +71,6 @@ end
 
 def update_element_from_index(array, index_number, element)
   
-  my_array = ["Apple", "Banana", "Cherry", "Dates"]
-  my_array[index_number] = element
-  my_array
+  array[index_number] = element
 
 end
