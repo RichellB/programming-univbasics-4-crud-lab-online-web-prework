@@ -48,7 +48,7 @@ end
 
 def retrieve_first_element_from_array(array)
  
-  my_array[0]
+  array[0]
   
 end
 
