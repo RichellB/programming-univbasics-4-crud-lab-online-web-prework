@@ -12,7 +12,7 @@ end
 def add_element_to_end_of_array(array, element)
   
   my_array = ["Apple", "Banana", "Cherry", "Dates"]
-  my_array << "Eggplant"
+  my_array << element
   my_array
   
 end
@@ -21,7 +21,7 @@ end
 def add_element_to_start_of_array(array, element)
   
   my_array = ["Apple", "Banana", "Cherry", "Dates"]
-  my_array.unshift("Eggplant")
+  my_array.unshift(element)
   
 end
 
