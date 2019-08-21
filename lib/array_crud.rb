@@ -44,18 +44,14 @@ end
 
 def retrieve_element_from_index(array, index_number)
   
-  my_array = ["Apple", "Banana", "Cherry", "Dates"]
-  num_loc = my_array[index_number]
-  num_loc
+  array[index_number]
   
 end
 
 
 def retrieve_first_element_from_array(array)
-  
-  my_array = ["Apple", "Banana", "Cherry", "Dates"]
-  num_loc = my_array[0]
-  num_loc
+ 
+  my_array[0]
   
 end
 
