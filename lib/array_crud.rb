@@ -20,15 +20,13 @@ end
 
 def add_element_to_start_of_array(array, element)
   
-  my_array = ["Apple", "Banana", "Cherry", "Dates"]
-  my_array.unshift(element)
+  array.unshift(element)
   
 end
 
 
 def remove_element_from_end_of_array(array)
   
-  # my_array = ["Apple", "Banana", "Cherry", "Dates"]
   array.pop
   
 end
@@ -36,8 +34,7 @@ end
 
 def remove_element_from_start_of_array(array)
   
-  my_array = ["Apple", "Banana", "Cherry", "Dates"]
-  deleted_front = my_array.shift
+  array.shift
   
 end
 
